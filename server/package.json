@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "dev": "nodemon ."
   },
   "keywords": [],
   "author": "santhosh",
   "license": "ISC",
   "dependencies": {
+    "nodemon": "^3.1.0",
     "ws": "^8.16.0"
   },
   "devDependencies": {

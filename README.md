@@ -16,7 +16,7 @@ Make sure you have Node.js installed on your machine.
    cd chat-app/server
    ```
 
-2. Navigate to the server directory:
+2. Install the dependencies:
 
    ```bash
    npm install
@@ -40,15 +40,15 @@ Make sure you have Node.js installed on your machine.
    bun start
    ```
 
-### Starting the Server
+### Starting the Client
 
-1. Navigate to the server directory:
+1. Navigate to the app directory:
 
    ```bash
    cd chat-app/app
    ```
 
-2. Navigate to the server directory:
+2. Install the dependencies:
 
    ```bash
    npm install
@@ -63,7 +63,19 @@ Make sure you have Node.js installed on your machine.
 3. Start the client:
 
    ```bash
-   npm start
+   npm run build
+   # or
+   yarn build
+   # or
+   pnpm build
+   # or
+   bun build
+   ```
+
+   Then
+
+   ```bash
+   npm run start
    # or
    yarn start
    # or
